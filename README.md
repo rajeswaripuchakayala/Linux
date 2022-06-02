@@ -104,3 +104,5 @@ rajeswarip@DESKTOP-L6IQ400:~/demo1$ tail sample.txt
 10) eighth command is rm (remove file)
 11) ninth command is cp (copy a file or directory)
 12) tenth command is mv (move a file or directory)
+
+rajeswarip@DESKTOP-L6IQ400:~/demo1$ tac sample.txt
