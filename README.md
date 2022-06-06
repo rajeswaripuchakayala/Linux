@@ -1,4 +1,4 @@
-# Linux
+# Linux Commands
 1) ls
 2) cd
 3) pwd
