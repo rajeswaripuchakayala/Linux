@@ -16,7 +16,7 @@
 15) more
 16) less
 17) su
-18) echo --> echo command is used to create a file, but we should specify the file content on the command line <br>
+18) **echo** --> echo command is used to create a file, but we should specify the file content on the command line <br>
 **for ex:** <br>
     _echo "this is the sample text file created by echo command" > 1.txt_ <br>
    **cat 1.txt** <br>
@@ -24,13 +24,22 @@
    ** want to append data**<br>
   _ echo "this is the second line i want to append using echo command" >>1.txt_ <br>
   
- 19) printf  --> printf command is used to create a file, but we should specify the file content on the command line <br>
+ 19) **printf**  --> printf command is used to create a file, but we should specify the file content on the command line <br>
  **for ex:** <br>
      _ printf "this is the sample text file created by printf command" > 2.txt_ <br>
      
    ** want to append data**<br>
   _ printf "this is the second line i want to append using printf command" >>2.txt_ <br>
   
+  20) **wc**  --> used to count the words, lines, and characters in the file <br>
+    **for ex:** <br> 
+        _wc sample.txt_ <br>
+   ** output:** <br>
+       1 10 53 sample.txt --> here 1 defines line, 10 defines words, 53 defines characters <br>
+       
+       wc -l sample.txt  --> i should get only lines count
+       wc -w sample.txt  --> i should get words count
+       wc -c sample.txt  --> i should get characters count
   
 .........ls...............
 ls --> command is used to view the contents of a directory
