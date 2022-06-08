@@ -16,7 +16,22 @@
 15) more
 16) less
 17) su
-18) 
+18) echo --> echo command is used to create a file, but we should specify the file content on the command line <br>
+**for ex:** <br>
+    _echo "this is the sample text file created by echo command" > 1.txt_ <br>
+   **cat 1.txt** <br>
+          _this is the sample test file created by echo command _ <br>
+   ** want to append data**<br>
+  _ echo "this is the second line i want to append using echo command" >>1.txt_ <br>
+  
+ 19) printf  --> printf command is used to create a file, but we should specify the file content on the command line <br>
+ **for ex:** <br>
+     _ printf "this is the sample text file created by printf command" > 2.txt_ <br>
+     
+   ** want to append data**<br>
+  _ printf "this is the second line i want to append using printf command" >>2.txt_ <br>
+  
+  
 .........ls...............
 ls --> command is used to view the contents of a directory
 rajeswarip@DESKTOP-L6IQ400:/$ ls
